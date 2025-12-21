@@ -26,22 +26,22 @@ img#logo {
 }
 
 #logo:not(.stepO):not(.stepTw):not(.stepTh):not(.stepF) {
-    width: 20vw;
+    width: 65vw;
     top: 5.5em;
 }
 
 #logo.stepO {
-    width: 15vw;
+    width: 42.5vw;
     top: 1.5em;
 }
 
 #logo.stepTw {
-    width: 10vw;
+    width: 32.5vw;
     top: .75em;
 }
 
 #logo.stepTh {
-    width: 5vw;
+    width: 22vw;
     top: .75em;
 }
 
@@ -51,7 +51,7 @@ img#logo {
 }
 
 #fakeLogo {
-    width: 20vw; aspect-ratio: 1/1; margin-bottom: 2rem;
+    width: 65vw; aspect-ratio: 640/129; margin-bottom: 5rem;
 }
 
 .maxWidthHeader {
