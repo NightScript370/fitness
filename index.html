@@ -29,9 +29,9 @@
 		  </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav me-auto py-4 py-lg-0">
-                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="/our-services.html">Our Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#heroImage">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Our Services</a></li>
             </ul>
         </div>
         <ul class="navbar-nav ms-auto py-4 py-lg-0 d-none d-lg-flex">
@@ -53,7 +53,7 @@
     </div>
 </header>
 
-<div class="modal" style="position: static; display: block; height: auto;" id="services">
+<div class="modal" style="position: static; display: block; height: auto;">
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header" style="justify-content: center;">
@@ -71,6 +71,71 @@
 	</div>
 </div>
 
+<div class="modal" style="position: static; display: block; height: auto;" id="contact">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header" style="justify-content: center;">
+				<h5 class="modal-title" style="font-family: 'Archivo Black'; text-transform: uppercase; font-size: 2rem;">Contact us</h5>
+			</div>
+			<div class="modal-body" style="--bs-modal-padding: 0;">
+				<div class="grid" style="align-items: center; text-align: center; grid-template-rows: 1fr 1fr 1fr; --bs-columns: 2;">
+          <div class="g-col-2">
+            <h3>Better yet, see us in person!</h3>
+            <p>We love our patients, so feel free to visit during normal business hours.</p>
+          </div>
+          <div class="g-col-2 g-col-lg-1">
+            <h2>Better Health Management</h2>
+            <p>87-40 165th Street,<br>Jamaica NY 11432</p>
+
+            Phone: <a href="tel:+1-914-228-4279">+1 (631) 561-2663</a><br>
+            Fax: <a href="tel:+1-914-228-4279">+1 (631) 561-2099</a>
+          </div>
+          <div class="g-col-2 g-col-lg-1" id="hoursGrid">
+            <span>Mon</span><span>10:00 am – 07:00 pm</span>
+            <span>Tue</span><span>10:00 am – 07:00 pm</span>
+            <span>Wed</span><span>10:00 am – 07:00 pm</span>
+            <span>Thu</span><span>10:00 am – 07:00 pm</span>
+            <span>Fri</span><span>10:00 am – 07:00 pm</span>
+            <span>Sat</span><span>Closed</span>
+            <span>Sun</span><span>By Appointment</span>
+          </div>
+          <div class="g-col-2" style="height: 100%;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.3963199671393!2d-73.80291791136963!3d40.70929116403439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c260e0846af0ff%3A0x8d735b47d398b5ea!2s87-40%20165th%20St%2C%20Jamaica%2C%20NY%2011432!5e0!3m2!1sen!2sus!4v1766344742672!5m2!1sen!2sus" style="border:0; width: 100%; height: 100%; border-bottom-right-radius: var(--bs-modal-border-radius); border-bottom-left-radius: var(--bs-modal-border-radius);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal" style="position: static; display: block; height: auto;" id="services">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content" style="box-shadow: none; border: none;">
+			<div class="modal-header" style="justify-content: center;">
+				<h5 class="modal-title" style="font-family: 'Archivo Black'; text-transform: uppercase; font-size: 2rem;">Our Services</h5>
+			</div>
+			<div class="modal-body" style="--bs-modal-padding: 0;">
+				<div class="grid" style="align-items: center; text-align: center; --bs-columns: 2;">
+          <div class="g-col-2">
+            <img style="width: 100%;" src="/assets/physical-therapy.webp" alt="Physical Therapy Session">
+            <h3>Physical Therapy</h3>
+            <p>Improve your mobility and joint health</p>
+          </div>
+          <div class="g-col-2 g-col-lg-1">
+            <img style="width: 100%;" src="/assets/chiropractic-services.webp" alt="Chiropractic Adjustment">
+            <h2>Chiropractic Services</h2>
+            <p>Relieve stiff joints, muscles and adhesions</p>
+          </div>
+          <div class="g-col-2 g-col-lg-1">
+            <img style="width: 100%;" src="/assets/pain-management.webp" alt="Pain Management">
+            <h2>Pain Management</h2>
+            <p>Pinpoint and treat pain and its symptoms</p>
+          </div>
+        </div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <script src="./assets/js/landing.js"></script>
 
