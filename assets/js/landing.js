@@ -32,7 +32,7 @@ function onIntersection(entries, opts){
         } else if (entry.intersectionRatio <= .32) {
             logo.classList.add('stepTh')
             logo.classList.remove('stepO', 'stepTw', 'stepF')
-        } else if (entry.intersectionRatio <= .52) {
+        } else if (entry.intersectionRatio <= .82) {
             logo.classList.remove('stepO', 'stepTh', 'stepF')
             logo.classList.add('stepTw')
         } else {

@@ -62,3 +62,24 @@ body {
 #hoursGrid > *:nth-child(even) {
 	text-align: right;
 }
+
+:root {
+	--bs-body-bg: #9a997b;
+	--bs-body-color: #282b14;
+}
+
+.modal-content {
+	background-color: #a5ab94;
+}
+
+/* Define dark mode styles */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bs-body-bg: #0b1312;
+		--bs-body-color: #dee2e6;
+	}
+
+	.modal-content {
+		background-color: #1d3738;
+	}
+}
